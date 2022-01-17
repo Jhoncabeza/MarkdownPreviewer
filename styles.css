@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.textarea {
+  width: 100%;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 0px 20px;
+  outline: none;
+  box-shadow: 0px 0px 3px 3px #276678;
+  color:#1687a7;
+}
+
+.textarea:focus {
+  box-shadow: 0px 0px 3px 3px #1687a7;
+}
+
+#preview {
+  padding: 40px;
+  text-align: left;
+  background-color: #f6f5f5;
+  color: red;
+  border: 1px solid #1687a7;
+  box-shadow: 0px 0px 3px 3px #1687a7;
+  border-radius: 20px 0px;
+}
+
